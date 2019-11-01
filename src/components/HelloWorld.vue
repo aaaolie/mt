@@ -80,9 +80,9 @@
         </a>
       </li>
     </ul>
-    <p>我是git测试</p>
-    <p>我是git测试</p>
-    <p>我是git测试</p>
+    <p>我是git测试1</p>
+    <p>我是git测试2</p>
+    <p>我是git测试3</p>
   </div>
 </template>
 
