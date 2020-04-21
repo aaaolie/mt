@@ -7,10 +7,10 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build:dev": "cross-env NODE_ENV=development ENV_CONFIG=dev node build/build.js",
+    "build:dev": "cross-env NODE_ENV=dev ENV_CONFIG=dev node build/build.js",
     "build:test": "cross-env NODE_ENV=test ENV_CONFIG=test node build/build.js",
     "build:pre": "cross-env NODE_ENV=pre ENV_CONFIG=pre node build/build.js",
-    "build:pro": "cross-env NODE_ENV=pro ENV_CONFIG=pro node build/build.js"
+    "build:prod": "cross-env NODE_ENV=prod ENV_CONFIG=prod node build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2"
