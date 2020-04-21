@@ -2,6 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld/>
+    {{env}}
+    {{api}}
   </div>
 </template>
 
@@ -10,6 +12,12 @@ import HelloWorld from './components/HelloWorld'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      env : process.env.ENV_CONFIG,
+      api : process.env.API_ROOT
+    }
+  },
   components: {
     HelloWorld
   }
